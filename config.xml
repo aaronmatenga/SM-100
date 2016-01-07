@@ -1,12 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.onsen.helloworld" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Onsen UI Project</name>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.skratch.sm100"
+        version   = "0.9.0">
+        
+    <name>SM-100</name>
+
     <description>
-        Onsen UI project to create fancy user interfaces for hybrid mobile applications. It uses uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone.
+        List of all 100 scripture masteries. Listed in order of length.
     </description>
-    <author email="dev@onsen.io" href="http://onsen.io">
-        Onsen UI Team
+
+    <author href="http://skratch.co.nz" email="skratch.ltd@gmail.com">
+        Skratch Limited
     </author>
+
     <content src="index.html" />
+
     <access origin="*" />
+
 </widget>
